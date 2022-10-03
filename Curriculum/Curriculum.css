@@ -1,0 +1,79 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+*{
+    margin: 9;
+	padding: 10;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+ /*Esto define el modulo superior de enlaces*/
+#Indice {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    text-transform: uppercase;
+   	height: 70px;
+    margin: 15px;
+    font-size: 20px;
+    display: flex;
+    border:  6px double #B0B0C8;
+    background-color: #E8E7FF;
+    border-radius: 20px;
+    list-style: none;
+    justify-content: space-around;
+}
+.Indice{
+    text-decoration: none;
+    color: #324B4C;
+    font-weight: 900;
+    border: 3px solid #7AB5B8;
+    border-radius: 5px;
+    box-sizing: content-box;  
+    background-color: #D3EFF0;
+    padding: 10px;
+}
+[indice="encima"]:hover {
+    color: red;
+    border: double 3px black;
+}
+/*----------------------------------------------------*/
+/*Esto define el formato del modulo de informacion principal*/
+#Datos {
+    background-color: #E6F0F0;
+    width: auto;
+    max-width: 910px;
+    height: auto;
+    border: 5px dashed #94B0B2;
+}
+#foto {
+    border: double black 10px;
+    border-radius: 5px;
+    float: left;
+    margin: 80px; 
+    height: 250px;
+    width: 250px;
+}
+h1{
+    color: red;
+}
+.Columna {
+    color: black;
+    margin: 30px;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: content-box;
+    border-radius: 32px;
+}
+p{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 900;
+
+}
