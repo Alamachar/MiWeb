@@ -1,0 +1,19 @@
+*{
+    margin: 10;
+	padding: 10;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: green;
+}
+#Indice {
+    text-align: center;
+    align-items: center;
+   	height: 60px;
+    font-size: 20px;
+    display: flex;
+    border: 10px double  ;
+    background-color: white;
+    border-radius: 98px;
+    justify-content: space-around;
+}
